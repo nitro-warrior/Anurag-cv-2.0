@@ -1,0 +1,70 @@
+/*tag selectors */
+/*change backgrund color*/
+body {
+  background-color: #EBFFFA;
+  /*lightcyan/#FAF7F0/ #C3F8FF/#EFFFFD*/
+}
+
+/*change style of hr element*/
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color: grey;
+  border-top-width: 8px;
+  width: 5%;
+}
+
+/*make things circular border radius*/
+img {
+  border-radius: 100%;
+}
+
+/*change text color*/
+h1, h3 {
+  color: #71C9CE;
+  transition: 1s ease;
+}
+/*h1:hover,h3:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+*/
+
+a {
+  text-decoration: none;
+}
+
+
+/*class selectors
+classes are specified by a attribute class="classname1 classname2 etc" and are used by dot(.classname)*/
+.trial {
+  font-size: 18px;
+  font-style: oblique;
+  color: #525252;
+}
+
+.trial:hover {
+  background-color: #A1EAFB;
+}
+
+.Engineer {
+  font-size: 25px;
+  font-style: oblique;
+  color: #525252;
+}
+
+.photo {
+  transition: 1s ease;
+}
+
+.photo:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+/* id selectors
+id are associated to only one line or tag it cannot be given to more than one tag  to use id we have to use hashtag(#idname)*/
